@@ -1,0 +1,60 @@
+.navBar{
+    height: 393px;
+    background: linear-gradient(to bottom,rgb(144,224,239), rgb(202,240,248));
+    display: flex;
+    justify-content: space-between;
+    
+
+    &__logoConsultorio{
+        padding: 48px 24px 48px 24px;
+        width: 272px;
+        height: 297px;
+    }
+    &__btn{
+        width: 212px;
+        height: 62px;
+        border-radius: 5px;
+        background-color: black;
+        text-decoration: none;
+        margin: 48px 12px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background: linear-gradient(to bottom,rgb(144,224,239), rgb(202,240,248));
+        font-family: 'Tilt Neon';
+        font-size: 36px;
+        color: black;
+        border-radius: 10px;
+        box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.25);
+        padding: 0px 12px 0px 12px;
+
+    }
+    &__elipse{
+        padding: 48px 24px 0px 0px;
+        height: 356px ;
+        align-self: flex-end;
+
+    }
+}
+
+@media (max-width: 425px){
+    .navBar{
+        height: 132px;
+        width: 425px;
+        background:rgb(90, 127 ,146, 1);
+        display: flex;
+        justify-content: space-between;
+        &__logoConsultorio{
+            padding: 24px 24px 24px 24px;
+            width: 78px;
+            height: 84px;
+        }
+        &__btn{
+            display: none;
+        }
+        &__elipse{
+            display: none;
+        
+        }
+    }
+}

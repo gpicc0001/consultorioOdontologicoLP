@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+    &__title{
+        font-size: 96px;
+        width: 801px;
+        height: 115px;
+        font-family:'Libre Caslon Display';
+        color: rgb(3,4,94);
+        margin: 0px;
+        padding:0px 0px 48px 0px;
+        position: absolute;
+        top: 60%;
+        left: 25%;
+    }
+    &__imagenMenu{
+        width: 29px;
+        height: 29px;
+        display: block;
+    }
+    &__imagenMenuMayor{
+        
+        display: none;
+    }
+    
+}
+.texto{
+    margin-top: 200px;
+}
+@media (max-width: 425px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        align-items: center;
+    
+        &__title{
+            text-align: center;
+            font-size: 36px;
+            position: absolute;
+            top: 2vh;
+            width: 205px;
+            height: 84px;
+            padding: 0px 0px 0px 24px;
+        }
+        
+    }
+}
